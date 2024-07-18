@@ -55,7 +55,7 @@ app.set("view engine", "pug");
 
 //test
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("TechShop now online !!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 });
 
 // app.get("/", function (req, res) {
