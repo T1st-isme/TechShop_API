@@ -1,0 +1,16 @@
+version: "3"
+services:
+  techshop-server:
+    container_name: techshop-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    env_file: .env
+    volumes:
+      - .:/app
+    command: yarn dev
+    environment:
+      - NODE_ENV=development
+      - MONGO_URL=mongodb+srv://admin:admin@test.bvwirwc.mongodb.net/test?retryWrites=true&w=majority
