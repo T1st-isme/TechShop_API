@@ -20,6 +20,7 @@ import {
   updateOrder,
   createOrder,
   updatePaymentStatus,
+  cancelOrder,
 } from "../controllers/OrderController.js";
 import payOS from "../Utils/payos.js";
 
@@ -42,6 +43,9 @@ router.put(
   requiredSignin,
   updatePaymentStatus
 );
+
+// update order status
+router.put("/cancel-order/:id", requiredSignin, cancelOrder);
 
 // admin route
 router.get("/admin/get-orders", requiredSignin, getOrders);

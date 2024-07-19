@@ -4,7 +4,7 @@ import Product from "../models/productModel.js";
 import asyncHandler from "express-async-handler";
 import payOS from "../Utils/payos.js";
 
-async function updateStockAndsold(order) {
+async function updateStockAndsold(order, isCancelled = false) {
   const productIds = order.items.map((item) => item.productId);
   const products = await Product.find({ _id: { $in: productIds } }).exec();
   const updatePromises = products.map((product) => {
@@ -12,8 +12,13 @@ async function updateStockAndsold(order) {
       (item) => item.productId?.toString() === product._id.toString()
     );
     if (item) {
-      product.stock -= item.purchasedQty;
-      product.sold += item.purchasedQty;
+      if (isCancelled) {
+        product.stock += item.purchasedQty;
+        product.sold -= item.purchasedQty;
+      } else {
+        product.stock -= item.purchasedQty;
+        product.sold += item.purchasedQty;
+      }
       return product.save();
     }
   });
@@ -30,12 +35,14 @@ const updateOrder = asyncHandler(async (req, res) => {
   );
   if (order) {
     order.paymentStatus =
-      status === "delivered" ? "completed" : order.paymentStatus;
+      status === "Đã giao" ? "Hoàn tất" : order.paymentStatus;
     await order.save();
-    if (status === "delivered") {
-      updateStockAndsold(order);
+    if (status === "Đã hủy") {
+      await updateStockAndsold(order, true);
     }
     res.json(order);
+  } else {
+    res.status(404).json({ message: "Không tìm thấy đơn hàng!!!" });
   }
 });
 
@@ -316,6 +323,25 @@ const updatePaymentStatus = asyncHandler(async (req, res) => {
   res.status(200).json({ success: Boolean(order), data: order });
 });
 
+//cancle order
+const cancelOrder = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const order = await Order.findById(id);
+  if (order) {
+    order.orderStatus = "Đã hủy";
+    order.paymentStatus = "Đã hủy";
+    await order.save();
+    await updateStockAndsold(order, true);
+    res
+      .status(200)
+      .json({ success: true, message: "Đã hủy đơn hàng thành công", order });
+  } else {
+    res
+      .status(404)
+      .json({ success: false, message: "Không tìm thấy đơn hàng!!!" });
+  }
+});
+
 export {
   addOrder,
   getOrders,
@@ -328,4 +354,5 @@ export {
   createPaymentLink,
   createOrder,
   updatePaymentStatus,
+  cancelOrder,
 };
