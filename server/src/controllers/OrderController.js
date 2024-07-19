@@ -275,6 +275,7 @@ const createOrder = asyncHandler(async function (req, res) {
       paymentType: "VietQR",
       orderStatus: "Đã đặt hàng",
     });
+    await updateStockAndsold(order);
     try {
       cart.cartItems = [];
       await cart.save();
