@@ -114,6 +114,7 @@ const addOrder = asyncHandler(async (req, res) => {
   }
   try {
     await order.save();
+    await updateStockAndsold(order);
   } catch (error) {
     console.error("Error saving order:", error);
     return res.status(500).json({ error: "Error saving order" });
