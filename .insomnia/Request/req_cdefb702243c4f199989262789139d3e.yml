@@ -1,0 +1,33 @@
+_id: req_cdefb702243c4f199989262789139d3e
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721381433515
+created: 1699428613335
+url: http://127.0.0.1:8080/cart/getCartItems
+name: get cart item
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_e0395d36e4414c229b4a3c704a32c3f1
+  - id: pair_d459234a6b8846079ac0f30b835c5a18
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZmJiY2U4YmJkYzg3NWE1MzVlMzBiNCIsImlhdCI6MTcxOTQzNTE1MSwiZXhwIjoxNzIwMDM5OTUxfQ.VtcvTP5CrsGowJdVNsuTm1VgL0oLGHUHrb5AdN71Tdg
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWEzMDc1ZGM1MTY4OTBmZGYwMmUwYiIsImlhdCI6MTcyMTM4MTAzMCwiZXhwIjoxNzIzOTczMDMwfQ.zB54_QrJdiSaEnM5m-gnjwYKTnlJNlrRadGUbhH5eaM
+  disabled: false
+metaSortKey: -1699428613335
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

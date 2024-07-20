@@ -1,0 +1,25 @@
+_id: req_b6af86f237b542638d12f32adffca182
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721381986618
+created: 1721380103428
+url: http://localhost:8080/order/cancel-order/669a344e0e992d25a64bb078
+name: cancel order
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWEzMDc1ZGM1MTY4OTBmZGYwMmUwYiIsImlhdCI6MTcyMTM4MTAzMCwiZXhwIjoxNzIzOTczMDMwfQ.zB54_QrJdiSaEnM5m-gnjwYKTnlJNlrRadGUbhH5eaM
+metaSortKey: -1721380103428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

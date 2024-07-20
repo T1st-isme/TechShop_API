@@ -1,0 +1,32 @@
+_id: req_a533f2b9da2a4b0babff479cf3659e71
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721300980717
+created: 1721293935562
+url: http://localhost:8080/wishlist/add
+name: add wish list
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "productId": "655490f2d30c38ff6dd2bb88"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTY4MDBkYmI2MDE2NWIxNmU0YTcwNSIsImlhdCI6MTcyMTI5MzkyMCwiZXhwIjoxNzIzODg1OTIwfQ.I_6wmLAsXKLIveTiu5ASu-EWx42WjZ-wk6mg_e4Mrrk
+metaSortKey: -1721293935562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

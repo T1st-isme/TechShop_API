@@ -1,0 +1,27 @@
+_id: req_665324f6e1be409a9cf61762da6ca322
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1720358472323
+created: 1699910439400
+url: http://localhost:8080/user/me
+name: get profile
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699748884261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

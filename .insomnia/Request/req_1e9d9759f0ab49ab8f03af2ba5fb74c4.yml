@@ -1,0 +1,28 @@
+_id: req_1e9d9759f0ab49ab8f03af2ba5fb74c4
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1718616784329
+created: 1698146477275
+url: http://localhost:8080/product/Laptop Dell XPS 13 Plus 9320 5CG56
+name: get single product
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+metaSortKey: -1698146477275
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

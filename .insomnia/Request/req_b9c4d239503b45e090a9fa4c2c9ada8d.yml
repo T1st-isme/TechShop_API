@@ -1,0 +1,23 @@
+_id: req_b9c4d239503b45e090a9fa4c2c9ada8d
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1699251982412
+created: 1697959289670
+url: http://localhost:8080/category/654764fc4eb4f56313837094
+name: xóa cate
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697959289670
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

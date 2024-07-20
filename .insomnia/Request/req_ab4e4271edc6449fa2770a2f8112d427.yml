@@ -1,0 +1,24 @@
+_id: req_ab4e4271edc6449fa2770a2f8112d427
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1718119320447
+created: 1699167540966
+url: http://localhost:8080/product/6552f79cea3b4606a040af88
+name: get pro by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_8469d31c9816452ea0cf539faddbf209
+authentication: {}
+metaSortKey: -1698148544698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

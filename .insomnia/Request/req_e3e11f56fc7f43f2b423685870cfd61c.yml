@@ -1,0 +1,25 @@
+_id: req_e3e11f56fc7f43f2b423685870cfd61c
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1720690980610
+created: 1699622431369
+url: http://localhost:8080/order/admin/654e256b7d238790fdab47d5
+name: delete order
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGJhZGEzNWFjYjAzN2FhNmY1NjExNSIsImlhdCI6MTcyMDQ1MTU4OCwiZXhwIjoxNzIzMDQzNTg4fQ.9FkvpyPRisf3ER1vr_ZIGK5OFs1Sb7iSrOiZqiz_QCM
+metaSortKey: -1699622431369
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_5afa8a74e08e481992380a7335f86198
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1699428633681
+created: 1698565662422
+url: http://localhost:8080/product/upload/653b5672787d2ad4ffc12e4f
+name: upload img
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c45827e42adf408e84122cb9d453f4cb
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: D:\Pictures\6102dc563de48b00044eb5b3.png
+      multiline: true
+parameters:
+  - id: pair_41bd588948c04ba6ae77902ebee5b027
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698565662422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

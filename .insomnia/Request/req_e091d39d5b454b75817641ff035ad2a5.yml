@@ -1,0 +1,64 @@
+_id: req_e091d39d5b454b75817641ff035ad2a5
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1699624580233
+created: 1697965039056
+url: http://localhost:8080/product
+name: tạo product
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_12e0c4ec60264b87971ef72b3d009f0e
+      name: name
+      value: Laptop MSI 13
+      description: ""
+    - id: pair_5282c4f40baa468f8f1f8da331a8a578
+      name: price
+      value: "1200"
+      description: ""
+    - id: pair_0c052c60db7d478e9dc1ff041890780a
+      name: proImg
+      value: ""
+      description: ""
+      type: file
+      fileName: D:\Pictures\43e13dfac044051a5c55.jpg
+    - id: pair_b5d0aee430bb42cfbc19f49490ec5f66
+      name: brand
+      value: ASUS
+      description: ""
+    - id: pair_b4558b7d21b2426e83c5644a927bba79
+      name: category
+      value: 654886f4c9f355ce0ead5e28
+      description: ""
+    - id: pair_664e345650d343f399bf2e9c101603a4
+      name: quantity
+      value: "300"
+      description: ""
+    - id: pair_46b7dbd550694c90b88846538f98dc7d
+      name: description
+      value: Just a description
+      description: ""
+    - id: pair_51ba34c539054c83a6d5e44db43d895d
+      name: proImg
+      value: ""
+      description: ""
+      type: file
+      multiline: true
+      fileName: D:\Pictures\female-freepik.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697965039056
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

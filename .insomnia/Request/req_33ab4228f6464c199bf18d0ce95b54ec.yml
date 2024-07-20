@@ -1,0 +1,41 @@
+_id: req_33ab4228f6464c199bf18d0ce95b54ec
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721381960624
+created: 1699526537601
+url: http://localhost:8080/order/add-order
+name: add order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"totalPrice": 8690000,
+    	"items": [
+    		{
+    			"productId": "6554e9b2805d7fa0ae12306e",
+    			"payablePrice": 8.69,
+    			"purchasedQty": 1
+    		}
+    	],
+    	"paymentStatus": "Đang xử lý",
+    	"paymentType": "COD"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWEzMDc1ZGM1MTY4OTBmZGYwMmUwYiIsImlhdCI6MTcyMTM4MTAzMCwiZXhwIjoxNzIzOTczMDMwfQ.zB54_QrJdiSaEnM5m-gnjwYKTnlJNlrRadGUbhH5eaM
+metaSortKey: -1699526537602
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

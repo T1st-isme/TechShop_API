@@ -1,0 +1,23 @@
+_id: req_078907178f634094b6b56ef9e005b7f6
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1700150432600
+created: 1698383868612
+url: http://localhost:8080/product/653b4110935e7ea0cc9f6bb2
+name: delete product
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698101117720.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
