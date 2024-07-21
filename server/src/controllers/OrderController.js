@@ -30,7 +30,7 @@ const updateOrder = asyncHandler(async (req, res) => {
   const { status } = req.body;
   const order = await Order.findByIdAndUpdate(
     id,
-    { orderStatus: status },
+    { orderStatus: status, updatedAt: Date.now() },
     { new: true }
   );
   if (order) {
