@@ -1,0 +1,32 @@
+_id: req_05472647b63c4b6dbae3d88dedec074f
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1720031763452
+created: 1699442602626
+url: http://localhost:8080/cart/removeCartItem
+name: remove cartitem
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "productId": "65548dbefd11ea91b371edba"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZmJiY2U4YmJkYzg3NWE1MzVlMzBiNCIsImlhdCI6MTcyMDAzMDE5NywiZXhwIjoxNzIyNjIyMTk3fQ.G0ZtQsVtDdFNGswEx5Rvrk6_mEOMce5p3wYfOOYUxdo
+metaSortKey: -1699442602626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

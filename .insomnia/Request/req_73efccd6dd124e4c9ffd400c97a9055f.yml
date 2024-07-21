@@ -1,0 +1,25 @@
+_id: req_73efccd6dd124e4c9ffd400c97a9055f
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1700437676658
+created: 1699619026619
+url: http://localhost:8080/order/get-order/655a9be972ab546dac7d6bad
+name: get single order
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTMwOWYzYTEwYjQ4MDNjNjJjZGVmODQiLCJyb2xlIjoidXNlciIsImlhdCI6MTY5OTUzNzU5OSwiZXhwIjoxNjk5NjIzOTk5fQ.tTdQUT6ashQUB1HB_tVN4SmfhbUctPWiWolAKgFyfIw
+metaSortKey: -1699534715192.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

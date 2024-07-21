@@ -1,0 +1,31 @@
+_id: req_67317c9974cb44bb9ccdafd77788588f
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1720502971196
+created: 1699618427016
+url: http://localhost:8080/order/admin/get-orders
+name: get all order
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_e82481486965492cad96d78884036d2e
+    name: orderStatus
+    value: ordered
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699531989329
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

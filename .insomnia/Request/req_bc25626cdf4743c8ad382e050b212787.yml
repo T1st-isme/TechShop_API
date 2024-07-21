@@ -1,0 +1,37 @@
+_id: req_bc25626cdf4743c8ad382e050b212787
+type: Request
+parentId: fld_31d9ff98c22a4e53a8fb096f7e6b0655
+modified: 1721139744336
+created: 1699875399169
+url: http://localhost:8080/user/admin/user/666854eb34c73d2be3441131
+name: update user
+description: ""
+method: PUT
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_a072763d3462413c948ac095b411c95b
+      name: fullname
+      value: hatrungtrien
+      description: ""
+    - id: pair_91b27548b63148f08b989279dacfd0f6
+      name: email
+      value: trientrung1123@gmail.com
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTY4MDBkYmI2MDE2NWIxNmU0YTcwNSIsImlhdCI6MTcyMTEzOTYxMSwiZXhwIjoxNzIzNzMxNjExfQ.khiJZ2tWsjCWtmjJK3qwBnESoGSaKMm0v65YRWeJjW0
+metaSortKey: -1699875399169
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

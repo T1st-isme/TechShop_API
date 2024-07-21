@@ -1,0 +1,32 @@
+_id: req_baa98a4868534c79a7130310ee00e709
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1700440559023
+created: 1699537441056
+url: http://localhost:8080/order/admin/655a9be972ab546dac7d6bad
+name: update order
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status": "delivered"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTMwOWYzYTEwYjQ4MDNjNjJjZGVmODQiLCJyb2xlIjoidXNlciIsImlhdCI6MTY5OTUzNzU5OSwiZXhwIjoxNjk5NjIzOTk5fQ.tTdQUT6ashQUB1HB_tVN4SmfhbUctPWiWolAKgFyfIw
+metaSortKey: -1699537441056
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

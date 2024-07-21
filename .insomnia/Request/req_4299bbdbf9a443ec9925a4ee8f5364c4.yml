@@ -1,0 +1,40 @@
+_id: req_4299bbdbf9a443ec9925a4ee8f5364c4
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1700420258914
+created: 1697958904429
+url: http://localhost:8080/category/655a576dd783850eafe045cf
+name: update cate
+description: ""
+method: PATCH
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: name
+      value: conchothanh
+      id: pair_d94ef5c976b74a2da01e163c640fc213
+    - id: pair_52facdce40294dffa52a9f1ff696fbda
+      name: parentId
+      value: ""
+      description: ""
+      disabled: true
+    - id: pair_7698d101f9fe46af9b19dda89343cf9c
+      name: type
+      value: ""
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697958904429
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

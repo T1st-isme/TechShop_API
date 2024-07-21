@@ -1,0 +1,39 @@
+_id: req_7f40340ff98d4ec6ada810c32f7ade83
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1700240170139
+created: 1698383338445
+url: http://localhost:8080/product/Laptop-MSI-14
+name: update product
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_0bba275f048f4425b19b3cdfdae2afd7
+      name: proImg
+      value: ""
+      description: ""
+      type: file
+      fileName: D:\Pictures\backiee-106326-landscape.jpg
+      disabled: true
+    - id: pair_d358d7de5b27485ab98717fc24c01b1c
+      name: brand
+      value: MSI
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698055758165.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_1f9d6e85fdb44186a3f72aceddb6dc27
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1697958155924
+created: 1697780082711
+url: http://localhost:8080/category
+name: Get All Category
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5ce323fc2c2940c6a1ba33e718f71c7a
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_b4d8fd6afe724987a9e7b1f4bdaf6942
+  - id: pair_c9742342b1794cd2b6c3730b375573f6
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlZGE2MzI3NGUwOTMwYjE5OGM1YzIiLCJpYXQiOjE2OTc3NDA3MDksImV4cCI6MTY5NzgyNzEwOX0.v7SVKBk8GwQFdyj9IHk0fXCmgusN1Qx_ma_SQ9YcTyg
+    description: ""
+authentication: {}
+metaSortKey: -1697780082711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

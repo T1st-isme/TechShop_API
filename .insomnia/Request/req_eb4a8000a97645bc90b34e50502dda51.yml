@@ -1,0 +1,39 @@
+_id: req_eb4a8000a97645bc90b34e50502dda51
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721381120488
+created: 1699295466725
+url: http://localhost:8080/cart/addToCart
+name: add to cart
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {
+    	"cartItems":[
+    		{
+    			"product": "65538d144410141bb60fe41f",
+    			"quantity": 1
+    		}
+    	]
+    }
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  prefix: ""
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWEzMDc1ZGM1MTY4OTBmZGYwMmUwYiIsImlhdCI6MTcyMTM4MTAzMCwiZXhwIjoxNzIzOTczMDMwfQ.zB54_QrJdiSaEnM5m-gnjwYKTnlJNlrRadGUbhH5eaM
+metaSortKey: -1699295466725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

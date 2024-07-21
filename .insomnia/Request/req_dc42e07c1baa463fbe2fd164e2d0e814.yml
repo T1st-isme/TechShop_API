@@ -1,0 +1,61 @@
+_id: req_dc42e07c1baa463fbe2fd164e2d0e814
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721381058157
+created: 1718115541736
+url: http://localhost:8080/user/me
+name: update profile
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_42f0092b349c47bd95a9c7b57161fb71
+      name: fullname
+      value: hatrungtrien
+      description: ""
+      disabled: true
+    - id: pair_97a27c778aaf4fdbb6175fc5f6f9e4cb
+      name: email
+      value: trientrung1123@gmail.com
+      description: ""
+      disabled: true
+    - id: pair_05c1220f54444af68036707239c63f42
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: D:\Pictures\mplfwfuiidnouhcaxdib.jpg
+      disabled: false
+    - id: pair_708a9aefc5d749059ef6a1f211c393b9
+      name: address
+      value: 123 Sư Vạn Hạnh
+      description: ""
+      disabled: true
+    - id: pair_78c581d8f7014a61aba2ae976bb6f135
+      name: phone
+      value: "0123456789"
+      description: ""
+      disabled: true
+    - id: pair_4c8d264fd64e48608d0aa086d62b71f0
+      name: password
+      value: Trien12112003
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWEzMDc1ZGM1MTY4OTBmZGYwMmUwYiIsImlhdCI6MTcyMTM4MTAzMCwiZXhwIjoxNzIzOTczMDMwfQ.zB54_QrJdiSaEnM5m-gnjwYKTnlJNlrRadGUbhH5eaM
+metaSortKey: -1699685858893.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

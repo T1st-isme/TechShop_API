@@ -1,0 +1,29 @@
+_id: req_4880f54b319e4e84895dccae464891b6
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721300417201
+created: 1721294208071
+url: http://localhost:8080/wishlist/remove
+name: remove from wishlist
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTY4MDBkYmI2MDE2NWIxNmU0YTcwNSIsImlhdCI6MTcyMTI5MzkyMCwiZXhwIjoxNzIzODg1OTIwfQ.I_6wmLAsXKLIveTiu5ASu-EWx42WjZ-wk6mg_e4Mrrk
+metaSortKey: -1721294208071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_aedd71dcae434c8590107805f54cb383
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1720456742204
+created: 1720456663065
+url: http://localhost:8080/cart/clearCart
+name: clear cart
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGJhZGEzNWFjYjAzN2FhNmY1NjExNSIsImlhdCI6MTcyMDQ1MTU4OCwiZXhwIjoxNzIzMDQzNTg4fQ.9FkvpyPRisf3ER1vr_ZIGK5OFs1Sb7iSrOiZqiz_QCM
+metaSortKey: -1720456663065
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

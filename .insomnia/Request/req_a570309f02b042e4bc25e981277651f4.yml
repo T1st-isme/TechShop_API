@@ -1,0 +1,30 @@
+_id: req_a570309f02b042e4bc25e981277651f4
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721333495567
+created: 1699622833526
+url: https://techshop-api-ohvp.onrender.com/order/me/order
+name: my order
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e82b80c71eba4e068c7c6e47e41e341c
+    name: orderStatus
+    value: processing
+    description: ""
+    disabled: false
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTY4MDBkYmI2MDE2NWIxNmU0YTcwNSIsImlhdCI6MTcyMTMzMzIzMSwiZXhwIjoxNzIzOTI1MjMxfQ.GW7Uyl5LdfEvmu9MoECNEOWYbG0SskjJ4mbuPTzFHEw
+metaSortKey: -1699622833526
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

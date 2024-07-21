@@ -1,0 +1,78 @@
+_id: req_b89f0d3204d24a76af00593c836bacc9
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1721386546375
+created: 1698150612121
+url: http://techshop.ninja/product
+name: get all product
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters:
+  - id: pair_baddace57cec44c8a8c689f75509f78a
+    name: name
+    value: Laptop Acer Aspire 3 A315 59 321N
+    description: ""
+    disabled: false
+  - id: pair_5a425d42470f42778bc277a627864f0e
+    name: fields
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_0c56653824b34ce2b2bb56b44795e2bc
+    name: page
+    value: "3"
+    description: ""
+    disabled: true
+  - id: pair_a1c1be99bf384df0a0f96a2c3a8dd19f
+    name: limit
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_a4abacb3357845e3a87bc4700961dcdd
+    name: sort
+    value: price
+    description: ""
+    disabled: true
+  - id: pair_7e4d3faa28ef4852b4f883de65b90881
+    name: category
+    value: 6552ee08ea3b4606a040af7d
+    description: ""
+    disabled: true
+  - id: pair_b3057fcd3787468483bf58d86c77caa4
+    name: brand
+    value: Razer
+    description: ""
+    disabled: true
+  - id: pair_11cff44b9c464f069f1394b2db3e12eb
+    name: resPerPage
+    value: "8"
+    description: ""
+    disabled: true
+  - id: pair_9cddb1151ad8493a8523aa13d09670ba
+    name: stock
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_a164e3a13128434e8adccae8e34a2c8a
+    name: keyword
+    value: Logitech
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_a084ea91d44d4b9985102a805778b98a
+authentication: {}
+metaSortKey: -1698150612121
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

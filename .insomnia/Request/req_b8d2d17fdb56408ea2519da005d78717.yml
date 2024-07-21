@@ -1,0 +1,23 @@
+_id: req_b8d2d17fdb56408ea2519da005d78717
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1700419449852
+created: 1697782172494
+url: http://localhost:8080/category/mac12
+name: get cate by name
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697782172494
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

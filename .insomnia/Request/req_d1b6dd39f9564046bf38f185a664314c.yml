@@ -1,0 +1,33 @@
+_id: req_d1b6dd39f9564046bf38f185a664314c
+type: Request
+parentId: wrk_ae3e6565695341afadc828bb20215f47
+modified: 1700419436263
+created: 1698145948104
+url: http://localhost:8080/category/create-category
+name: tạo cate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "MAC12"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_f43c03bacc6441a490c8e64b68fe3631
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlZGE2MzI3NGUwOTMwYjE5OGM1YzIiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2OTkyNTE2OTMsImV4cCI6MTY5OTMzODA5M30.avmd4847_fLt3pB4Y2iWhq9W_-6xHyZ87ODn-tp8zd4
+metaSortKey: -1697781127602.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
