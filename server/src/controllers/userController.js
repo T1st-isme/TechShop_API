@@ -35,9 +35,9 @@ const userLogin = asyncHandler(async (req, res) => {
 
 // signup user
 const userSignup = asyncHandler(async (req, res) => {
-  const { fullname, email, password } = req.body;
+  const { fullname, email, password, phone } = req.body;
 
-  if (!fullname || !email || !password) {
+  if (!fullname || !email || !password || !phone) {
     return res
       .status(400)
       .send({ message: "Vui lòng điền đầy đủ thông tin!!!" });
@@ -221,15 +221,11 @@ const updateUserProfile = asyncHandler(async (req, res, next) => {
     updateFields.password = req.body.password;
   }
 
-  const user = await userModels.findByIdAndUpdate(
-    req.user._id,
-    updateFields,
-    {
-      new: true,
-      runValidators: true,
-      useFindAndModify: false,
-    }
-  );
+  const user = await userModels.findByIdAndUpdate(req.user._id, updateFields, {
+    new: true,
+    runValidators: true,
+    useFindAndModify: false,
+  });
 
   if (!user) {
     res.status(404);

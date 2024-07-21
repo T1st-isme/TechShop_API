@@ -27,17 +27,24 @@ async function updateStockAndsold(order, isCancelled = false) {
 
 const updateOrder = asyncHandler(async (req, res) => {
   const { id } = req.params;
-  const { status } = req.body;
+  const { orderStatus } = req.body;
+  if (req.body && !orderStatus) {
+    return res.status(400).json({ message: "Không có dữ liệu để cập nhật!!!" });
+  }
+
   const order = await Order.findByIdAndUpdate(
     id,
-    { orderStatus: status, updatedAt: Date.now() },
+    { orderStatus: orderStatus, updatedAt: Date.now() },
     { new: true }
   );
+  if (orderStatus === "Đã hủy") {
+    return res.status(400).json({ message: "Không thể hủy đơn hàng!!!" });
+  }
   if (order) {
     order.paymentStatus =
-      status === "Đã giao" ? "Hoàn tất" : order.paymentStatus;
+      orderStatus === "Đã giao" ? "Hoàn tất" : order.paymentStatus;
     await order.save();
-    if (status === "Đã hủy") {
+    if (orderStatus === "Đã hủy") {
       await updateStockAndsold(order, true);
     }
     res.json(order);
