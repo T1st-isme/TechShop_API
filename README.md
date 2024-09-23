@@ -25,7 +25,7 @@ TechShop Server is a backend application for managing an e-commerce platform. It
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/techshop-server.git
+   git clone https://github.com/T1st-isme/TechShop_API.git
    cd server
    ```
 
